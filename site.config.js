@@ -1,14 +1,14 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: "민준의 개발일지",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
+    role: "크로스플랫폼 개발자",
     bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    email: "minjun0094@@gmail.com",
+    linkedin: "https://www.linkedin.com/in/%EB%AF%BC%EC%A4%80-%EA%B9%80-69438b288/",
+    github: "https://github.com/minjun0094",
+    instagram: "https://www.instagram.com/mzuun_/",
   },
   projects: [
     {
@@ -18,9 +18,9 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    title: "민준의 개발일지",
+    description: "개발기록 블로그입니다.",
+    scheme: "system", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
