@@ -1,7 +1,17 @@
-import { Roboto } from 'next/font/google'
+import localFont from 'next/font/local'
 
-export const roboto = Roboto({
-  weight: ['900'],
-  style: ['italic'],
-  subsets: ['latin'],
+export const roboto = localFont({
+  src: [
+    {
+      path: './Roboto-Regular.ttf',
+      weight: '400',
+      style: 'normal'
+    },
+    {
+      path: './Roboto-Bold.ttf',
+      weight: '700',
+      style: 'normal'
+    }
+  ],
+  variable: '--font-roboto'
 })
